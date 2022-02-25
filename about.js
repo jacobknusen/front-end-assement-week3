@@ -1,14 +1,20 @@
 console.log("hello world");
 
+let rando= document.querySelector('randomcomp')
+let picture = document.querySelector('img');
 
 
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('form submit successfully');
+}
+
+function handleMouseOver(){
+	alert(' you look really good today')
 }
 
 
-let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
+picture.addEventListener('mouseover', handleMouseOver)

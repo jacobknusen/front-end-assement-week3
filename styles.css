@@ -1,3 +1,4 @@
+
 body {
   background: #ddd;
   margin: 1rem;
@@ -5,6 +6,8 @@ body {
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+  width: 90%;
+    margin: auto;
 }
 
 nav {
@@ -35,4 +38,32 @@ input {
 
 img {
 	max-width: 300px;
+}
+.container{
+	padding: 10px;
+	background-color: pink;
+	
+	
+}
+#j{
+	color: pink;
+	background-color: black;
+	align-content: center;
+}
+#k{
+	color: pink;
+	background-color: black;
+}
+#l{
+	background-color: pink;
+}
+#o{
+	color: pink;
+	background-color: black;
+
+}
+.btn{
+	background-color: yellow;
+	height: 40px;
+	width: 100px;
 }
