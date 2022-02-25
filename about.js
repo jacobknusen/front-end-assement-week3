@@ -1,7 +1,7 @@
 console.log("hello world");
 
 let rando= document.querySelector('randomcomp')
-let picture = document.querySelector('img');
+let picture = document.querySelector('#rubberduck');
 
 
 function handleSubmit(evt) {
@@ -10,7 +10,8 @@ function handleSubmit(evt) {
 	alert('form submit successfully');
 }
 
-function handleMouseOver(){
+function handleMouseOver(evt){
+	evt.preventDefault();
 	alert(' you look really good today')
 }
 
