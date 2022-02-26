@@ -1,11 +1,12 @@
 console.log("hello world");
 
-let rando= document.querySelector('randomcomp')
+let rando1 = document.querySelector('#rando')
 let picture = document.querySelector('#rubberduck');
 
 
 function handleSubmit(evt) {
 	evt.preventDefault();
+	console.log('is this working')
 	
 	alert('form submit successfully');
 }
@@ -17,5 +18,5 @@ function handleMouseOver(evt){
 
 
 
-form.addEventListener('submit', handleSubmit);
+rando1.addEventListener('submit', handleSubmit);
 picture.addEventListener('mouseover', handleMouseOver)
