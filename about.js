@@ -1,6 +1,6 @@
 console.log("hello world");
 
-let rando1 = document.querySelector('#rando')
+let rando1 = document.querySelector('form#contact')
 let picture = document.querySelector('#rubberduck');
 
 
